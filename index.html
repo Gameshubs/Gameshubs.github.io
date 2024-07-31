@@ -99,6 +99,9 @@ if (zoom > 70) {alert("I recommend using a zoom under 70%");}
        event.preventDefault();
     }
     });
+  document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
   </script>
 </body>
 </html>
