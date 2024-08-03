@@ -222,7 +222,7 @@ img {
 }
 
 .change-log {
-  left: 0;
-  top: 0;
+  margin-left: 10px;
+  margin-top: 10px;
   color: white;
 }
