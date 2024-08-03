@@ -220,3 +220,8 @@ img {
   width: 100px;
   height: 100px;
 }
+
+.change-log {
+  left: 0;
+  top: 0;
+}
