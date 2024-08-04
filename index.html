@@ -92,7 +92,8 @@ function hide() {
 <script>
 function asdk() {
   let x = getCookie('idd');
-  if (x == '') {
+  if (x != '1') {
+    document.cookie = 'id=1'
     let zoom = (( window.outerWidth - 10 ) / window.innerWidth) * 100;
     if (zoom > 70) {alert("I recommend using a zoom under 70%.   PLEASE CLICK ON THE ADD IM CRYING I NEED AD REVENUE");}
     alert("CLICK ON THE ADS")
