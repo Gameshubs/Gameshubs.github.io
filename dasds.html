@@ -60,6 +60,16 @@
     let route = prompt("Enter link. To go to link, click the normal escape button")
     document.getElementById("escape").href = route;
   }
+  
+    function goFullscreen(id) {
+        var element = document.getElementById(id);
+        if (element.mozRequestFullScreen) {
+          element.mozRequestFullScreen();
+        } else if (element.webkitRequestFullScreen) {
+          element.webkitRequestFullScreen();
+        }
+    }
+    
 </script>
 <iframe src="https://mathadventure1.github.io/slope/slope/index.html" width=" 1900" height="950" scrolling="no"></iframe>
 <br>
